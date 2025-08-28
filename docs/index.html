@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Justicia Verde</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background-color: #f5f5f5;
+      color: #2e7d32;
+    }
+
+    .fondo {
+      background-image: url('imagenes/justiciaverde.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      opacity: 0.2;
+    }
+
+    header, section, footer {
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      font-size: 3em;
+      color: #1b5e20;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      color: #388e3c;
+      margin-top: 30px;
+    }
+
+    p, li {
+      font-size: 1.1em;
+      line-height: 1.6;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      background-color: #c8e6c9;
+      margin: 0;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #2e7d32;
+      font-weight: bold;
+      padding: 10px;
+      transition: background 0.3s;
+    }
+
+    nav ul li a:hover {
+      background-color: #a5d6a7;
+      border-radius: 5px;
+    }
+
+    img, video, audio {
+      margin-top: 20px;
+      max-width: 90%;
+      border-radius: 10px;
+    }
+
+    footer {
+      background-color: #e8f5e9;
+      color: #1b5e20;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="fondo"></div>
+
+  <header>
+    <h1>Justicia Verde</h1>
+    <p>Una app que permite denunciar actos ambientales ilegales de forma anónima, con asesoría legal y apoyo de organizaciones comprometidas con el medio ambiente.</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#descripcion">Descripción</a></li>
+      <li><a href="#funcionalidades">Funcionalidades</a></li>
+      <li><a href="#asesoria">Asesoría</a></li>
+      <li><a href="#multimedia">Multimedia</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <section id="descripcion">
+    <article>
+      <h2>¿Qué es Justicia Verde?</h2>
+      <p>Justicia Verde es una aplicación digital que empodera a los ciudadanos para reportar delitos ambientales como deforestación, contaminación o maltrato animal. Las denuncias pueden ser anónimas y se geolocalizan en un mapa interactivo.</p>
+      <img src="imagenes/destruccion.jpg" alt="destruccion flora y fauna">
+    </article>
+  </section>
+
+  <section id="funcionalidades">
+    <article>
+      <h2>Principales funcionalidades</h2>
+      <ul>
+        <li>📍 Denuncias anónimas con geolocalización.</li>
+        <li>📷 Subida de evidencias (fotos, videos).</li>
+        <li>🗺️ Visualización de casos en un mapa interactivo.</li>
+        <li>🔔 Seguimiento del estado de la denuncia.</li>
+      </ul>
+    </article>
+  </section>
+
+  <section id="asesoria">
+    <article>
+      <h2>Red de apoyo</h2>
+      <ol>
+        <li>👩‍⚖️ Asesoría legal con abogados especializados.</li>
+        <li>🌍 Acompañamiento de ONGs ambientales.</li>
+        <li>🏫 Vinculación con universidades para investigación y difusión.</li>
+      </ol>
+    </article>
+  </section>
+
+  <section id="multimedia">
+  <article>
+    <h2 style="text-align: center;">¿Por qué nació Justicia Verde?</h2>
+    <p>Este video muestra cómo las comunidades enfrentan la pérdida de sus recursos naturales. Justicia Verde surge como respuesta a estas realidades, ofreciendo una herramienta para denunciar y transformar.</p>
+
+    <iframe width="560" height="315" 
+      src="https://www.youtube.com/embed/gjHn5iy-pWM" 
+      title="Video de Justicia verde" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen>
+    </iframe>
+  </article>
+</section>
+<h2 style="text-align: center;">escucha el audio</h2>
+
+<p style="text-align: center;">Este fragmento del programa de prevención ambiental en Colombia refuerza el propósito de Justicia Verde. Escúchalo para comprender el contexto legal y social que inspira nuestra app:</p>
+
+
+<div style="text-align: center;">
+  <audio controls>
+    <source src="audios/audiojusticiaverde.mp3" type="audio/mpeg">
+  </audio>
+</div>
+  <footer id="contacto">
+    <p>Contacto: justicia.verde@uniautonoma.edu.co</p>
+    <p>Créditos: Marta españa - jaiver muñoz</p>
+  </footer>
+
+</body>
+</html>
+
